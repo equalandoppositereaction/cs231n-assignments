@@ -1,0 +1,12 @@
+{"time":"2026-01-17T23:06:58.725040489Z","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-17T23:06:58.889380932Z","level":"INFO","msg":"stream: created new stream","id":"eklzmuar"}
+{"time":"2026-01-17T23:06:58.889751507Z","level":"INFO","msg":"handler: started","stream_id":"eklzmuar"}
+{"time":"2026-01-17T23:06:58.898704643Z","level":"INFO","msg":"writer: started","stream_id":"eklzmuar"}
+{"time":"2026-01-17T23:06:58.898746888Z","level":"INFO","msg":"stream: started","id":"eklzmuar"}
+{"time":"2026-01-17T23:06:58.898765425Z","level":"INFO","msg":"sender: started","stream_id":"eklzmuar"}
+{"time":"2026-01-17T23:07:04.201402073Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-17T23:07:04.304573098Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-17T23:07:04.318758183Z","level":"INFO","msg":"stream: closing","id":"eklzmuar"}
+{"time":"2026-01-17T23:07:04.320798197Z","level":"INFO","msg":"handler: closed","stream_id":"eklzmuar"}
+{"time":"2026-01-17T23:07:04.323226086Z","level":"INFO","msg":"sender: closed","stream_id":"eklzmuar"}
+{"time":"2026-01-17T23:07:04.323444992Z","level":"INFO","msg":"stream: closed","id":"eklzmuar"}

@@ -1,0 +1,12 @@
+{"time":"2026-01-20T22:31:20.768956151Z","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-20T22:31:20.925973329Z","level":"INFO","msg":"stream: created new stream","id":"ywuu4snk"}
+{"time":"2026-01-20T22:31:20.926261219Z","level":"INFO","msg":"handler: started","stream_id":"ywuu4snk"}
+{"time":"2026-01-20T22:31:20.934212032Z","level":"INFO","msg":"stream: started","id":"ywuu4snk"}
+{"time":"2026-01-20T22:31:20.934214626Z","level":"INFO","msg":"writer: started","stream_id":"ywuu4snk"}
+{"time":"2026-01-20T22:31:20.934242691Z","level":"INFO","msg":"sender: started","stream_id":"ywuu4snk"}
+{"time":"2026-01-20T22:31:59.339404572Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-20T22:31:59.466941202Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-20T22:31:59.486702509Z","level":"INFO","msg":"stream: closing","id":"ywuu4snk"}
+{"time":"2026-01-20T22:31:59.487196904Z","level":"INFO","msg":"handler: closed","stream_id":"ywuu4snk"}
+{"time":"2026-01-20T22:31:59.494230687Z","level":"INFO","msg":"sender: closed","stream_id":"ywuu4snk"}
+{"time":"2026-01-20T22:31:59.494815958Z","level":"INFO","msg":"stream: closed","id":"ywuu4snk"}

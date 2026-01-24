@@ -1,0 +1,12 @@
+{"time":"2026-01-17T23:07:18.748214109Z","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-17T23:07:18.943393967Z","level":"INFO","msg":"stream: created new stream","id":"pav43gtk"}
+{"time":"2026-01-17T23:07:18.945317851Z","level":"INFO","msg":"handler: started","stream_id":"pav43gtk"}
+{"time":"2026-01-17T23:07:18.958106857Z","level":"INFO","msg":"stream: started","id":"pav43gtk"}
+{"time":"2026-01-17T23:07:18.958157522Z","level":"INFO","msg":"writer: started","stream_id":"pav43gtk"}
+{"time":"2026-01-17T23:07:18.958185527Z","level":"INFO","msg":"sender: started","stream_id":"pav43gtk"}
+{"time":"2026-01-17T23:07:22.044637164Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-17T23:07:22.213321986Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-17T23:07:22.231459938Z","level":"INFO","msg":"stream: closing","id":"pav43gtk"}
+{"time":"2026-01-17T23:07:22.23316738Z","level":"INFO","msg":"handler: closed","stream_id":"pav43gtk"}
+{"time":"2026-01-17T23:07:22.234714782Z","level":"INFO","msg":"sender: closed","stream_id":"pav43gtk"}
+{"time":"2026-01-17T23:07:22.235025273Z","level":"INFO","msg":"stream: closed","id":"pav43gtk"}

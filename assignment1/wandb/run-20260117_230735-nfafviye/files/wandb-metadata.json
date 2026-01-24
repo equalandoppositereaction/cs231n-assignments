@@ -1,0 +1,25 @@
+{
+  "os":  "Linux-6.6.105+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.12",
+  "startedAt":  "2026-01-17T23:07:35.429370Z",
+  "program":  "FullyConnectedNets.ipynb",
+  "codePath":  "FullyConnectedNets.ipynb",
+  "codePathLocal":  "FullyConnectedNets.ipynb",
+  "email":  "sharestuffhehe@gmail.com",
+  "root":  "/content/drive/My Drive/cs231n/assignments/assignment1",
+  "host":  "bc0413b720ea",
+  "executable":  "/usr/bin/python3",
+  "colab":  "https://colab.research.google.com/notebook#fileId=1agI58dBTC1aYYZMsSzXHBpY4kSUZdpBn",
+  "cpu_count":  1,
+  "cpu_count_logical":  2,
+  "disk":  {
+    "/":  {
+      "total":  "115658190848",
+      "used":  "23072206848"
+    }
+  },
+  "memory":  {
+    "total":  "13605851136"
+  },
+  "writerId":  "k78monndj0x0x6v7mvxivl1w91v6gyte"
+}

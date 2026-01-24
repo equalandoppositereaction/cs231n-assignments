@@ -1,0 +1,12 @@
+{"time":"2026-01-20T22:30:07.881070338Z","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-20T22:30:08.055959352Z","level":"INFO","msg":"stream: created new stream","id":"lssun5ih"}
+{"time":"2026-01-20T22:30:08.056240775Z","level":"INFO","msg":"handler: started","stream_id":"lssun5ih"}
+{"time":"2026-01-20T22:30:08.080002213Z","level":"INFO","msg":"writer: started","stream_id":"lssun5ih"}
+{"time":"2026-01-20T22:30:08.080106631Z","level":"INFO","msg":"stream: started","id":"lssun5ih"}
+{"time":"2026-01-20T22:30:08.080126389Z","level":"INFO","msg":"sender: started","stream_id":"lssun5ih"}
+{"time":"2026-01-20T22:30:44.004538042Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-20T22:30:44.126778413Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-20T22:30:44.148426917Z","level":"INFO","msg":"stream: closing","id":"lssun5ih"}
+{"time":"2026-01-20T22:30:44.1488542Z","level":"INFO","msg":"handler: closed","stream_id":"lssun5ih"}
+{"time":"2026-01-20T22:30:44.153172534Z","level":"INFO","msg":"sender: closed","stream_id":"lssun5ih"}
+{"time":"2026-01-20T22:30:44.153775996Z","level":"INFO","msg":"stream: closed","id":"lssun5ih"}

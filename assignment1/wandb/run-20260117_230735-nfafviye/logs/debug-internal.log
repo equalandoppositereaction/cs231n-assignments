@@ -1,0 +1,12 @@
+{"time":"2026-01-17T23:07:35.561030903Z","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-17T23:07:35.735799096Z","level":"INFO","msg":"stream: created new stream","id":"nfafviye"}
+{"time":"2026-01-17T23:07:35.736162306Z","level":"INFO","msg":"handler: started","stream_id":"nfafviye"}
+{"time":"2026-01-17T23:07:35.745903467Z","level":"INFO","msg":"stream: started","id":"nfafviye"}
+{"time":"2026-01-17T23:07:35.745903294Z","level":"INFO","msg":"writer: started","stream_id":"nfafviye"}
+{"time":"2026-01-17T23:07:35.745960143Z","level":"INFO","msg":"sender: started","stream_id":"nfafviye"}
+{"time":"2026-01-17T23:07:38.701192522Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-17T23:07:38.860705941Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-17T23:07:38.877590556Z","level":"INFO","msg":"stream: closing","id":"nfafviye"}
+{"time":"2026-01-17T23:07:38.878021355Z","level":"INFO","msg":"handler: closed","stream_id":"nfafviye"}
+{"time":"2026-01-17T23:07:38.881374971Z","level":"INFO","msg":"sender: closed","stream_id":"nfafviye"}
+{"time":"2026-01-17T23:07:38.881575252Z","level":"INFO","msg":"stream: closed","id":"nfafviye"}

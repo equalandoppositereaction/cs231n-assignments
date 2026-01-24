@@ -1,0 +1,12 @@
+{"time":"2026-01-17T23:07:54.981127809Z","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-17T23:07:55.154970817Z","level":"INFO","msg":"stream: created new stream","id":"psnfkdau"}
+{"time":"2026-01-17T23:07:55.15525096Z","level":"INFO","msg":"handler: started","stream_id":"psnfkdau"}
+{"time":"2026-01-17T23:07:55.165433128Z","level":"INFO","msg":"stream: started","id":"psnfkdau"}
+{"time":"2026-01-17T23:07:55.165445628Z","level":"INFO","msg":"writer: started","stream_id":"psnfkdau"}
+{"time":"2026-01-17T23:07:55.165473031Z","level":"INFO","msg":"sender: started","stream_id":"psnfkdau"}
+{"time":"2026-01-17T23:07:58.292252437Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-17T23:07:58.406366141Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-17T23:07:58.424968473Z","level":"INFO","msg":"stream: closing","id":"psnfkdau"}
+{"time":"2026-01-17T23:07:58.425361137Z","level":"INFO","msg":"handler: closed","stream_id":"psnfkdau"}
+{"time":"2026-01-17T23:07:58.428115196Z","level":"INFO","msg":"sender: closed","stream_id":"psnfkdau"}
+{"time":"2026-01-17T23:07:58.428472944Z","level":"INFO","msg":"stream: closed","id":"psnfkdau"}

@@ -1,0 +1,12 @@
+{"time":"2026-01-17T23:07:07.959746224Z","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-17T23:07:08.139464471Z","level":"INFO","msg":"stream: created new stream","id":"boiyvm2y"}
+{"time":"2026-01-17T23:07:08.139948418Z","level":"INFO","msg":"handler: started","stream_id":"boiyvm2y"}
+{"time":"2026-01-17T23:07:08.152074996Z","level":"INFO","msg":"stream: started","id":"boiyvm2y"}
+{"time":"2026-01-17T23:07:08.152081089Z","level":"INFO","msg":"writer: started","stream_id":"boiyvm2y"}
+{"time":"2026-01-17T23:07:08.152110499Z","level":"INFO","msg":"sender: started","stream_id":"boiyvm2y"}
+{"time":"2026-01-17T23:07:11.13390432Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-17T23:07:11.2422869Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-17T23:07:11.26151697Z","level":"INFO","msg":"stream: closing","id":"boiyvm2y"}
+{"time":"2026-01-17T23:07:11.263655453Z","level":"INFO","msg":"handler: closed","stream_id":"boiyvm2y"}
+{"time":"2026-01-17T23:07:11.265593237Z","level":"INFO","msg":"sender: closed","stream_id":"boiyvm2y"}
+{"time":"2026-01-17T23:07:11.265872729Z","level":"INFO","msg":"stream: closed","id":"boiyvm2y"}

@@ -1,0 +1,25 @@
+(Iteration 1 / 40) loss: 2.302575
+(Epoch 0 / 20) train acc: 0.040000; val_acc: 0.086000
+(Epoch 1 / 20) train acc: 0.020000; val_acc: 0.088000
+(Epoch 2 / 20) train acc: 0.020000; val_acc: 0.083000
+(Epoch 3 / 20) train acc: 0.040000; val_acc: 0.085000
+(Epoch 4 / 20) train acc: 0.020000; val_acc: 0.079000
+(Epoch 5 / 20) train acc: 0.080000; val_acc: 0.093000
+(Iteration 11 / 40) loss: 2.302295
+(Epoch 6 / 20) train acc: 0.100000; val_acc: 0.083000
+(Epoch 7 / 20) train acc: 0.100000; val_acc: 0.083000
+(Epoch 8 / 20) train acc: 0.120000; val_acc: 0.084000
+(Epoch 9 / 20) train acc: 0.160000; val_acc: 0.089000
+(Epoch 10 / 20) train acc: 0.180000; val_acc: 0.086000
+(Iteration 21 / 40) loss: 2.301866
+(Epoch 11 / 20) train acc: 0.180000; val_acc: 0.088000
+(Epoch 12 / 20) train acc: 0.180000; val_acc: 0.091000
+(Epoch 13 / 20) train acc: 0.160000; val_acc: 0.092000
+(Epoch 14 / 20) train acc: 0.180000; val_acc: 0.093000
+(Epoch 15 / 20) train acc: 0.180000; val_acc: 0.090000
+(Iteration 31 / 40) loss: 2.302150
+(Epoch 16 / 20) train acc: 0.180000; val_acc: 0.093000
+(Epoch 17 / 20) train acc: 0.160000; val_acc: 0.090000
+(Epoch 18 / 20) train acc: 0.180000; val_acc: 0.094000
+(Epoch 19 / 20) train acc: 0.160000; val_acc: 0.085000
+(Epoch 20 / 20) train acc: 0.160000; val_acc: 0.085000

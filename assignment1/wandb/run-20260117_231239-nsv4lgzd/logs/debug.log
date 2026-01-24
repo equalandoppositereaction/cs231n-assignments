@@ -1,0 +1,26 @@
+2026-01-17 23:12:39,858 INFO    MainThread:4435 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /content/drive/My Drive/cs231n/assignments/assignment1/wandb/run-20260117_231239-nsv4lgzd/logs/debug.log
+2026-01-17 23:12:39,859 INFO    MainThread:4435 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /content/drive/My Drive/cs231n/assignments/assignment1/wandb/run-20260117_231239-nsv4lgzd/logs/debug-internal.log
+2026-01-17 23:12:39,859 INFO    MainThread:4435 [wandb_init.py:monkeypatch_ipython():633] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7af081ccfb00>
+2026-01-17 23:12:39,860 INFO    MainThread:4435 [wandb_init.py:init():841] calling init triggers
+2026-01-17 23:12:39,860 INFO    MainThread:4435 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'weight_scale': 0.079, '_wandb': {}}
+2026-01-17 23:12:39,860 INFO    MainThread:4435 [wandb_init.py:init():889] starting backend
+2026-01-17 23:12:39,860 INFO    MainThread:4435 [wandb_init.py:init():892] sending inform_init request
+2026-01-17 23:12:39,864 INFO    MainThread:4435 [wandb_init.py:init():900] backend started and connected
+2026-01-17 23:12:39,892 INFO    MainThread:4435 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2026-01-17 23:12:40,301 INFO    MainThread:4435 [wandb_init.py:init():970] updated telemetry
+2026-01-17 23:12:40,306 INFO    MainThread:4435 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2026-01-17 23:12:40,516 INFO    MainThread:4435 [wandb_init.py:init():1041] starting run threads in backend
+2026-01-17 23:12:41,488 INFO    MainThread:4435 [wandb_run.py:_console_start():2521] atexit reg
+2026-01-17 23:12:41,490 INFO    MainThread:4435 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2026-01-17 23:12:41,492 INFO    MainThread:4435 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2026-01-17 23:12:41,494 INFO    MainThread:4435 [wandb_run.py:_redirect():2461] Redirects installed.
+2026-01-17 23:12:41,499 INFO    MainThread:4435 [wandb_init.py:init():1081] run started, returning control to user process
+2026-01-17 23:12:44,508 INFO    MainThread:4435 [wandb_run.py:_finish():2287] finishing run eaor-delhi-university/fc_net/nsv4lgzd
+2026-01-17 23:12:44,510 INFO    MainThread:4435 [jupyter.py:save_history():435] not saving jupyter history
+2026-01-17 23:12:44,511 INFO    MainThread:4435 [jupyter.py:save_ipynb():359] not saving jupyter notebook
+2026-01-17 23:12:44,513 INFO    MainThread:4435 [wandb_init.py:_jupyter_teardown():618] cleaning up jupyter logic
+2026-01-17 23:12:44,514 INFO    MainThread:4435 [wandb_run.py:_atexit_cleanup():2486] got exitcode: 0
+2026-01-17 23:12:44,516 INFO    MainThread:4435 [wandb_run.py:_restore():2468] restore
+2026-01-17 23:12:44,518 INFO    MainThread:4435 [wandb_run.py:_restore():2474] restore done
+2026-01-17 23:12:45,022 INFO    MainThread:4435 [wandb_run.py:_footer_sync_info():3862] logging synced files

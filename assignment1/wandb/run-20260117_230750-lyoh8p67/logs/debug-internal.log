@@ -1,0 +1,12 @@
+{"time":"2026-01-17T23:07:51.04278856Z","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2026-01-17T23:07:51.210080658Z","level":"INFO","msg":"stream: created new stream","id":"lyoh8p67"}
+{"time":"2026-01-17T23:07:51.210683197Z","level":"INFO","msg":"handler: started","stream_id":"lyoh8p67"}
+{"time":"2026-01-17T23:07:51.219014824Z","level":"INFO","msg":"stream: started","id":"lyoh8p67"}
+{"time":"2026-01-17T23:07:51.21912382Z","level":"INFO","msg":"writer: started","stream_id":"lyoh8p67"}
+{"time":"2026-01-17T23:07:51.219154903Z","level":"INFO","msg":"sender: started","stream_id":"lyoh8p67"}
+{"time":"2026-01-17T23:07:54.555708761Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-17T23:07:54.727704339Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-01-17T23:07:54.74688719Z","level":"INFO","msg":"stream: closing","id":"lyoh8p67"}
+{"time":"2026-01-17T23:07:54.750108552Z","level":"INFO","msg":"handler: closed","stream_id":"lyoh8p67"}
+{"time":"2026-01-17T23:07:54.7535504Z","level":"INFO","msg":"sender: closed","stream_id":"lyoh8p67"}
+{"time":"2026-01-17T23:07:54.754671599Z","level":"INFO","msg":"stream: closed","id":"lyoh8p67"}

@@ -1,0 +1,55 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            dguphq56qomfw9f6rws6v9nhdw51s8ni:
+                codePath: FullyConnectedNets.ipynb
+                codePathLocal: FullyConnectedNets.ipynb
+                colab: https://colab.research.google.com/notebook#fileId=1agI58dBTC1aYYZMsSzXHBpY4kSUZdpBn
+                cpu_count: 1
+                cpu_count_logical: 2
+                disk:
+                    /:
+                        total: "115658190848"
+                        used: "22936264704"
+                email: sharestuffhehe@gmail.com
+                executable: /usr/bin/python3
+                host: ac6c11344865
+                memory:
+                    total: "13605842944"
+                os: Linux-6.6.105+-x86_64-with-glibc2.35
+                program: FullyConnectedNets.ipynb
+                python: CPython 3.12.12
+                root: /content/drive/My Drive/cs231n/assignments/assignment1
+                startedAt: "2026-01-20T22:23:48.377656Z"
+                writerId: dguphq56qomfw9f6rws6v9nhdw51s8ni
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 105
+            "2":
+                - 105
+            "3":
+                - 2
+                - 16
+            "4": 3.12.12
+            "5": 0.23.1
+            "8":
+                - 1
+                - 12
+            "12": 0.23.1
+            "13": linux-x86_64
+layers:
+    value:
+        - 400
+        - 400
+        - 400
+        - 400
+        - 400
+learning_rate:
+    value: 6.74113339486225e-05
+reg:
+    value: 0.0015104053959595714
+weight_scale:
+    value: 0.0028146682909223134

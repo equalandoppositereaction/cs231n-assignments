@@ -511,6 +511,21 @@ def conv_forward_naive(x, w, b, conv_param):
     # TODO: Implement the convolutional forward pass.                         #
     # Hint: you can use the function np.pad for padding.                      #
     ###########################################################################
+    N, C, H, W = x.shape
+    F, C, HH, WW = w.shape
+    stride = conv_param['stride']
+    pad = conv_param['pad']
+    H_out = int(1 + (H + 2 * pad - HH) / stride)
+    W_out = int(1 + (W + 2 * pad - WW) / stride)
+    x_pad = np.pad(x, ((0,0), (0,0), (pad,pad), (pad,pad)), 'constant')
+    out = np.zeros((N, F, H_out, W_out))
+    for n in range(0, N):
+      for f in range(0, F):
+        for h in range(0, H_out):
+          for w2 in range(0, W_out):
+            h_start = h*stride
+            w_start = w2*stride
+            out[n, f, h, w2] = np.sum(x_pad[n,:,h_start:h_start+HH, w_start:w_start+WW] * w[f]) + b[f]
 
     ###########################################################################
     #                             END OF YOUR CODE                            #
@@ -536,7 +551,33 @@ def conv_backward_naive(dout, cache):
     ###########################################################################
     # TODO: Implement the convolutional backward pass.                        #
     ###########################################################################
+    x, w, b, conv_param = cache
+    N, C, H, W = x.shape
+    F, C, HH, WW = w.shape
+    stride = conv_param['stride']
+    pad = conv_param['pad']
+    
+    N, F, H_out, W_out = dout.shape
+    
+    x_pad = np.pad(x, ((0,0), (0,0), (pad,pad), (pad,pad)), 'constant')
+    dx_pad = np.zeros_like(x_pad)
+    
+    dx = np.zeros_like(x)
+    dw = np.zeros_like(w)
+    db = np.zeros_like(b)
 
+    db = np.sum(dout, axis=(0,2,3))
+    for n in range(0, N):
+      for f in range(0, F):
+        for h in range(0, H_out):
+          for w2 in range(0, W_out):
+            h_start = h*stride
+            w_start = w2*stride
+            dw[f] += x_pad[n,:,h_start:h_start+HH, w_start:w_start+WW] * dout[n,f,h,w2]
+            dx_pad[n,:,h_start:h_start+HH, w_start:w_start+WW] += w[f] * dout[n,f,h,w2]
+
+    dx = dx_pad[:, :, pad:-pad, pad:-pad]
+  
     ###########################################################################
     #                             END OF YOUR CODE                            #
     ###########################################################################
@@ -568,6 +609,20 @@ def max_pool_forward_naive(x, pool_param):
     ###########################################################################
     # TODO: Implement the max-pooling forward pass                            #
     ###########################################################################
+    N, C, H, W = x.shape
+    ph = pool_param['pool_height']
+    pw = pool_param['pool_width']
+    stride = pool_param['stride']
+    H_out = int(1 + (H - ph)/stride)
+    W_out = int(1 + (W - pw)/stride)
+    out = np.zeros([N,C,H_out,W_out])
+    for n in range(0, N):
+      for f in range(0, C):
+        for h in range(0, H_out):
+          for w in range(0, W_out):
+            h_start = h*stride
+            w_start = w*stride
+            out[n,f,h,w] = np.max(x[n,f,h_start:h_start+ph,w_start:w_start+pw])
 
     ###########################################################################
     #                             END OF YOUR CODE                            #
@@ -591,7 +646,22 @@ def max_pool_backward_naive(dout, cache):
     ###########################################################################
     # TODO: Implement the max-pooling backward pass                           #
     ###########################################################################
-
+    x, pool_param = cache
+    dx = np.zeros_like(x)
+    N, C, H, W = x.shape
+    ph = pool_param['pool_height']
+    pw = pool_param['pool_width']
+    stride = pool_param['stride']
+    N, C, H_out, W_out = dout.shape
+    for n in range(0, N):
+      for f in range(0, C):
+        for h in range(0, H_out):
+          for w in range(0, W_out):
+            h_start = h*stride
+            w_start = w*stride
+            window = x[n,f,h_start:h_start+ph,w_start:w_start+pw]
+            x_max = np.max(window)
+            dx[n,f,h_start:h_start+ph,w_start:w_start+pw] += (window == x_max) * dout[n,f,h,w]
     ###########################################################################
     #                             END OF YOUR CODE                            #
     ###########################################################################
